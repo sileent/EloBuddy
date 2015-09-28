@@ -97,7 +97,7 @@ namespace silentClockBuddy
             settings.Add("ShowClock", new CheckBox("Show Clock"));
             settings.Add("TypeClock", new CheckBox("Type: 24h / 12h"));
             settings.Add("ShowSecound", new CheckBox("Show Secound"));
-            settings.Add("ShowText", new CheckBox("Show text ''Time:''"));
+            settings.Add("ShowText", new CheckBox("Show text ''Time Now:''"));
             settings.AddSeparator();
             settings.AddLabel("Position:");
             settings.Add<Slider>("X", new Slider("X", 0, 0, Drawing.Width));
@@ -109,7 +109,7 @@ namespace silentClockBuddy
             settings.Add<Slider>("B", new Slider("B", 0, 0, 255));
             
             Drawing.OnDraw += Drawing_OnDraw;
-            Chat.Print("silentClockBuddy Loaded! v. " + "0.1", Color.Red);
+            Chat.Print("silentClockBuddy Loaded! v. " + "1.0", Color.Red);
 
 
             Game.OnUpdate += Game_OnUpdate;
