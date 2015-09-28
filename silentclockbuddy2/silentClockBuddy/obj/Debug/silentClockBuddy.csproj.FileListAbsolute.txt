@@ -1,1 +1,0 @@
-E:\C#\whatitsas\silentclockbuddy2\silentClockBuddy\bin\Debug\silentClockBuddy.exe.config
